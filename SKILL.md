@@ -11,7 +11,7 @@ A deterministic, multi-pass editing method distilled from June Casagrande's *It 
 
 ## What this skill does
 
-Given any prose text, run an ordered six-pass pipeline: diagnose each sentence's point, rebuild sentence architecture so the main clause carries the main news, fix modifier placement and reference, cut fat and vague words, correct mechanics, then read the whole as the Reader. The full procedure, with a complete worked example, lives in `references/pipeline.md` — **the full path in "How to work" begins by reading it; short light edits may use the fast path instead.**
+Given any prose text, run an ordered six-pass pipeline: diagnose each sentence's point, rebuild sentence architecture so the main clause carries the main news, fix modifier placement and reference, cut fat and vague words, correct mechanics, then read the whole as the Reader. The full procedure, with a complete worked example, lives in `references/pipeline.md`; the condensed detect cues for all passes live in `references/quick-scan.md` — **"How to work" routes LIGHT EDIT through the quick scan and FULL REWRITE / DIAGNOSE through the full pipeline.**
 
 ## Operating modes — pick one before starting
 
@@ -50,14 +50,19 @@ Craft writing (content-first: business, news, nonfiction, genre fiction) applies
 
 ## How to work
 
-**Full path (texts over ~8 sentences, or any FULL REWRITE):**
+**LIGHT EDIT — quick-scan path (any length):**
+1. Read `references/quick-scan.md` in full — your working cue sheet for all six passes.
+2. Classify genre (craft vs. art); build the voice fingerprint. Mode contracts and the standing-exemption list live in `references/pipeline.md` §3–4 — read those sections if a voice-guard call is uncertain.
+3. Run the passes in order from the quick-scan cues. Open a pass's full reference file(s) only when a detect or keep-cut decision is uncertain — the full entries carry the per-rule **Examples** and **Exceptions** that calibrate judgment and gate the voice guard.
+4. For texts over ~10 sentences, keep the Pass 1 ledger as a working table and process paragraph by paragraph.
+5. Before returning: run the `references/pipeline.md` §7 verification checklist; then output per the contract below.
+
+**FULL REWRITE and DIAGNOSE — full pipeline:**
 1. Read `references/pipeline.md` in full.
 2. Classify mode + genre (craft vs. art); build the voice fingerprint.
 3. Run the passes in order. While running a pass, consult that pass's reference file(s) — each has per-rule **Detect** signals, numbered **Fix** steps, before/after **Examples**, and **Exceptions**, plus a "Quick scan list" for fast application.
 4. For texts over ~10 sentences, keep the Pass 1 ledger as a working table and process paragraph by paragraph.
 5. Before returning: run the §7 verification checklist; then output per the contract below.
-
-**Fast path (LIGHT EDIT or DIAGNOSE of texts under ~8 sentences):** run the six passes from the summaries above without pre-reading the references; open a reference file only when a detect or keep/cut decision is uncertain. The invariants, voice guard, and output contract still apply in full, and the verification checklist still gates return — reading just `references/pipeline.md` §7 for it is enough.
 
 ## Output contract
 
@@ -69,6 +74,7 @@ Craft writing (content-first: business, news, nonfiction, genre fiction) applies
 
 | File | Contents |
 |---|---|
+| `references/quick-scan.md` | Condensed detect cues for every rule, all five rule files merged — the LIGHT EDIT cue sheet |
 | `references/pipeline.md` | The six passes in full, mode contracts, voice guard, worked example, verification checklist |
 | `references/reader-first.md` | Reader-serving doctrine, information hierarchy, sentence-length strategy, surgery cuts, accuracy/voice verification |
 | `references/structure.md` | Main-clause news, X-ray method, subordination traps, nominalizations, passives, clause parsing |
